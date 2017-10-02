@@ -1,0 +1,110 @@
+.rolling_menu {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin:30px 0;
+}
+.rolling_menu .menu_item {
+    position: relative;
+    sbackground-color: #fff;
+    float: left;
+    width: 80px;
+    margin: 0px 5px 0px 0px;
+    height: 80px;
+    sborder: 1px solid #ececec;
+    cursor: pointer;
+    overflow: hidden;
+}
+.link {
+    margin: 3px;
+    position: absolute;
+    width: 70px;
+    height: 80px;
+}
+.icon_pharmacovigilance {
+    background: transparent url(../images/icons/project-management-icon.png) no-repeat top left;
+}
+.icon_clinical_research {
+    background: transparent url(../images/icons/editorial-services-icon.png) no-repeat top left;
+}
+.icon_clinical_data_management {
+    background: transparent url(../images/icons/creative-studio-icon.png) no-repeat top left;
+}
+.icon_hospital_management {
+    background: transparent url(../images/icons/rights-permissions-icon.png) no-repeat top left;
+}
+.icon_scientific_writing {
+    background: transparent url(../images/icons/product-delivery-icon.png) no-repeat top left;
+}
+.icon_corel {
+    background: transparent url(../images/icons/technology-solutions-icon.png) no-repeat top left;
+}
+ .icon_technology_solutions{
+    background: transparent url(../images/icons/technology-solutions-icon.png) no-repeat top left;
+}
+ .icon_content-development{
+    background: transparent url(../images/icons/content-development-icon.png) no-repeat top left;
+}
+ .icon_world-languages{
+    background: transparent url(../images/icons/world-languages-icon.png) no-repeat top left;
+}
+  .icon_learning-media{
+    background: transparent url(../images/icons/learning-media-icon.png) no-repeat top left;
+}
+.rolling_menu .item_content {
+    position: absolute;
+    height: 80px;
+    width: 300px;
+    overflow: hidden;
+    left: 80px;
+    top: 7px;
+    background: transparent;
+    display: none;
+}
+  .item_content h2 {
+    color: #333;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px !important;
+    font-family: 'Oswald', sans-serif;
+}
+ .item_content h2 span {
+    padding: 8px 0 0 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+  .item_content a {
+    background-color: transparent;
+    float: left;
+    margin-right: 0px;
+    margin-top: 0px;
+    color: #333;
+    text-decoration: none;
+}
+.rolling_menu .item_content a:hover {
+    scolor: #0b965b;
+}
+.rolling_menu .item_content p {
+    background-color: transparent;
+    display: none;
+}
+.rolling_menu .item_content p input {
+    border: 1px solid #ccc;
+    padding: 1px;
+    width: auto;
+    float: left;
+    margin-right: 5px;
+}
